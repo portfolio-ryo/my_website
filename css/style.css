@@ -95,6 +95,30 @@ nav a:hover {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .top-nav {
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    z-index: 10;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .hero-content {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+  }
+}
 
 h2 {
     color: #68a4e8;
